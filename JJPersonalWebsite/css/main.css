@@ -1,7 +1,8 @@
 /* PROPERTIES */
 :root {
 --orange:#DC3522;
---cream:#D9CB9E;
+--darkcream:#D9CB9E;
+--cream:#F2E0D0;
 --metal:#374140;
 --gray:#2A2C2B;
 --darkgray:#1E1E20;
@@ -254,11 +255,11 @@ text-align: center;
 
 body {
     font-family: var(--fontFam_2);
-    background-color: var(--cream);
+    background-color: var(--darkcream);
 }
 
 .BG {
-    background-color: var(--cream);
+    background-color: var(--darkcream);
     width: 900px;
     display: block;
     overflow: hidden;
@@ -285,7 +286,7 @@ footer {
 }
 
 html {
-    background-color: var(--cream);
+    background-color: var(--darkcream);
     -webkit-font-smoothing: antialiased;
 }
 
